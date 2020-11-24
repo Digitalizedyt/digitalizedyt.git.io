@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    margin: 19px 70px;
+    /* height: 65px; */
+    font-family: 'Baloo Bhaina 2', cursive;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+    position: sticky;
+}
+
+.nav-left {
+    display: flex;
+    font-size: 30px;
+    /* width: 70%; */
+}
+
+.nav-left ul img {
+    border-radius: 50px;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.nav-left ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul li a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+.nav-right {
+    display: contents;
+    /* width: 20%; */
+    margin: auto;
+    padding-left: 70px;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    margin: 35px;
+    position: relative;
+}
+
+.content::after {
+    content: "";
+    background-image: url("../images/post.jpg");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+}
+
+.content-left {
+    font-family: 'Baloo Bhaina 2', cursive;
+    width: 105%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.article-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-right {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.content-right img {
+    height: 280px;
+    width: 300px;
+    border-radius: 70px;
+}
+
+.footer {
+    height: 35px;
+    color: white;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn {
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding: 2px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding: 2px 10px;
+    cursor: pointer;
+    background-color: crimson;
+}
+
+.form-input {
+    padding: 5px 13px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 0 6px;
+    border: 2px solid black;
+}
+
+.home-articles {
+    padding-top: 25px;
+}
+
+.article {
+    display: flex;
+    padding: 22px;
+}
+
+.article-img img {
+    height: 183px;
+    width: 193px;
+}
+
+.article-content {
+    align-self: center;
+    padding: 25px;
+}

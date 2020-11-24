@@ -1,0 +1,32 @@
+.contact {
+    display: flex;
+    height: 400px;
+    margin: 35px;
+    position: relative;
+}
+
+.feedback {
+    background-color: rgb(241, 240, 237);
+    height: 100%;
+}
+
+.text-center {
+    text-align: center;
+    padding: 7px;
+    font-size: 30px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.form {
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+.form-side {
+    width: 100%;
+    font-size: 21px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin: 14px 0;
+    padding: 5px 13px;
+}
